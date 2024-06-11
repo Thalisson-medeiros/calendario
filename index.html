@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Babylonica&family=Handlee&family=Oswald:wght@200;300;600&family=Roboto:wght@300;400&display=swap" 
+    rel="stylesheet">
+    <title>Calendário</title>
+</head>
+<body>
+    <div id="calendario">
+        <section id="ano-mes">
+            <h3 id="mesCalendario"></h3>
+            <h3 id="anoCalendario"></h3>
+            <div>
+                <span class="anterior">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </span>
+                <span class="proximo">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </span>
+            </div>
+        </section>
+        
+        <ol id="dias-da-semana">
+            <li>Dom</li>
+            <li>Seg</li>
+            <li>Ter</li>
+            <li>Qua</li>
+            <li>Qui</li>
+            <li>Sex</li>
+            <li>Sáb</li>
+        </ol>
+
+        <ol id="datasCalendario">
+        </ol>
+    </div>
+    <script src="js/index.js" defer></script>
+</body>
+</html>
